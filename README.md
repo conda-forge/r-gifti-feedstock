@@ -1,11 +1,11 @@
-About r-gifti
-=============
+About r-gifti-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gifti-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=gifti
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gifti-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions to read in the geometry format under the 'Neuroimaging' 'Informatics' Technology
 Initiative ('NIfTI'), called 'GIFTI' <https://www.nitrc.org/projects/gifti/>. These
