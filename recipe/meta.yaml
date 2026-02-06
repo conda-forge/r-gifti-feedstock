@@ -1,4 +1,4 @@
-{% set version = '0.8.0' %}
+{% set version = "0.9.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gifti_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gifti/gifti_{{ version }}.tar.gz
-  sha256: 9eea71aa93358d4560cd66d39d1f66bc8d5ac920eb3f979af46a274b33e963bd
+  sha256: 4dff8fe955b3ac14322b26afb535bc1e48afb60756fff47bb40ec83e6e4bafd1
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
